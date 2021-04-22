@@ -1,0 +1,41 @@
+employees:
+  - name: Andy
+    manager_name: Dave
+    salary: 110000
+    isManager: false
+  - name: Dave
+    manager_name: Jeff
+    salary: 120000
+    isManager: true
+  - name: Jeff
+    manager_name:
+    salary: 135000
+    isManager: true
+  - name: Dan
+    manager_name: Dave
+    salary: 110000
+    isManager: false
+  - name: Monty
+    manager_name: Suzanne
+    salary: 90000
+    isManager: true
+  - name: Jennifer
+    manager_name: Monty
+    salary: 85000
+    isManager: false
+  - name: Jason
+    manager_name: Dave
+    salary: 98000
+    isManager: false
+  - name: Rick
+    manager_name: Dave
+    salary: 105000
+    isManager: false
+  - name: Suzanne
+    manager_name: Dave
+    salary: 105000
+    isManager: true
+  - name: Bunty
+    manager_name: Monty
+    salary: 80000
+    isManager: false
