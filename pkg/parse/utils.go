@@ -15,6 +15,7 @@ func (c *company) buildMapOfManagersToSubordinates() (string, map[string][]strin
 	var ceo string
 
 	for _, e := range c.Employees {
+		// CEO will not have a manager
 		if e.ManagerName != "" {
 			mapOfMgrsToSubs[e.ManagerName] = append(mapOfMgrsToSubs[e.ManagerName], e.Name)
 		} else {

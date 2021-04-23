@@ -24,7 +24,7 @@ func (c *company) processEmployees() {
 	log.SetFlags(0)
 
 	/* Read the details of all the employees via a YAML file supplied via
-	   a line argument */
+	   a command line argument */
 	yamlFile, err := ioutil.ReadFile(os.Args[1])
 	if err != nil {
 		log.Fatalf("Error reading yaml file: %#v", err)
